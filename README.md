@@ -7,7 +7,7 @@ All steps must be performed from Ubuntu
 1. Open the terminal
 2. Clone the repository
    
-   $git clone https://github.com/alvarogarzon14/p2video_nuevo
+   $git clone https://github.com/IsaBF00/p2_video/
 4. Position ourselves inside the repository folder.
    
    $cd p2video_nuevo
@@ -36,3 +36,4 @@ Now for the MEGA model:
 8. python demo/demo.py ${METHOD} ${CONFIG_FILE} ${CHECKPOINT_FILE} [--suffix ${IMAGE_SUFFIX}] [--visualize-path ${IMAGE-FOLDER}] [--output-folder ${FOLDER}] [--output-video]
 
 python demo/demo.py mega configs/MEGA/vid_R_101_C4_MEGA_1x.yaml R_101.pth --suffix=".JPEG" --visualize-path=image_folder --output-folder=visualizacion_MEGA --output-video
+
